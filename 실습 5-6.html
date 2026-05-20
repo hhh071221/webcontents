@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>animation</title>
+        <style>
+            @keyframes bob {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            img {
+                animation-name: bob;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+        <body>
+            <h3>어지러워요</h3>
+            <hr>
+            <img src="media/spongebob.png" alt="스폰지밥" width="200">
+        </body>
+    </head>
+</html>
